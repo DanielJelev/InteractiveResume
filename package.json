@@ -1,0 +1,19 @@
+{
+  "name": "resume-jelev",
+  "version": "1.0.1",
+  "description": "This is my resume for software developer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJelev/InteractiveResume.git"
+  },
+  "author": "Daniel Jelev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielJelev/InteractiveResume/issues"
+  },
+  "homepage": "https://github.com/DanielJelev/InteractiveResume#readme"
+}

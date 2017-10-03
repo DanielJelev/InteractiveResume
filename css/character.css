@@ -1,0 +1,21 @@
+body{
+
+    height:100vh;
+    background: #a36b8e;
+    overflow-y: hidden;
+}
+#character {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 65px;
+    height: 80px;
+
+}
+.right-side{
+    background: url('../images/character-modify.png') no-repeat;
+}
+
+.left-side{
+    background: url('../images/character-left.png') no-repeat;
+}
