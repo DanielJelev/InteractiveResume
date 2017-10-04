@@ -32,13 +32,13 @@ var app = app || {};
             this.moveInterval = setInterval(function(){
                 console.log("right")
                 self.draw(direction);
-            }, 50)
+            }, 70)
         }
         if(direction === 'left'){
             this.moveInterval = setInterval(function(){
                 console.log("left")
                 self.draw(direction);
-            }, 50)
+            }, 70)
         }
     };
 
@@ -51,7 +51,7 @@ var app = app || {};
             this.container.css("background-position", self.spriteStep+"px");
             this.step +=10;
             this.spriteStep -= 65;
-            if(this.spriteStep < -520){
+            if(this.spriteStep < -322){
                 this.spriteStep = -65;
             }
         }
@@ -62,7 +62,7 @@ var app = app || {};
             this.container.css("background-position", self.spriteStep+"px");
             this.step -=10;
             this.spriteStep -= 65;
-            if(this.spriteStep < -520){
+            if(this.spriteStep < -322){
                 this.spriteStep = -65;
             }
         }
