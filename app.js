@@ -7,4 +7,7 @@ var app = app || {};
     var container = $('#character');
     var character = new app.Character(container);
     character.initialize();
+
+    var engine = new app.Engine();
+    engine.initialize();
 }());

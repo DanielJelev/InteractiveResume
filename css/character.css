@@ -1,11 +1,10 @@
 body{
 
-    height:100vh;
+    height:100000vh;
     background: #a36b8e;
-    overflow-y: hidden;
 }
 #character {
-    position: absolute;
+    position: fixed;
     top: 200px;
     left: 0px;
     width: 65px;
@@ -13,7 +12,7 @@ body{
 
 }
 .right-side{
-    background: url('../images/character-modify.png') no-repeat;
+    background: url('../images/character-right.png') no-repeat;
 }
 
 .left-side{
